@@ -1,0 +1,84 @@
+body{background:#00BCD4;
+    color:black;
+    }
+    
+    .titulo{
+        font-family: Calibri Light;
+        font-size: 60px;
+    }
+    
+    h1,h2,h3{
+        text-align:center; 
+    }
+    
+    h2{
+        font-family: Calibri Light;
+        font-size: 30px;
+    }
+    
+    .menu{
+       width:100%;
+       margin:0px;
+       padding:0px;
+       list-style:none; 
+       background: yellow; 
+    }
+    .menu li {
+        display:inline-block;   
+    }
+    
+    .menu li a {
+        padding: 10px 20px;
+        display: inline-block;       
+    }
+    
+    .menu li a:hover{
+        background:#FF5722; 
+    }
+    
+    .p{
+       width:30%;
+       margin:20px;
+       padding:30px;
+       border:2px solid #000;
+       background: yellow;
+       position: relative; 
+           left:200px;
+    }
+    
+    .p1{
+       width:60%;
+       margin:20px;
+       padding:30px;
+       border:2px solid #000;
+       background: yellow;
+       position: relative; 
+           left:200px;
+    }
+    
+    .img{
+	margin:10px auto;
+	display:block;
+    }
+    
+    .aside{
+       width:20%;
+       margin:20px;
+       padding:30px;
+       border:6px solid #000;
+       background: #FF5722;
+       position: absolute; 
+           left:700px;
+           top:300px;
+    }
+    
+    .font{
+        font-family:arial;
+    }
+    
+    footer{
+        background: black;
+        color:white;
+        padding: 10px 0px;
+        text-align: center;
+    }
